@@ -19,12 +19,12 @@ This is a backend application built with **Node.js** and **SQLite** that helps u
 ## Setup Instructions
 
 **Clone the repository:**
-   bash
-   git clone <your-repo-url>
-   cd expense-tracker-api
-   npm install
-   node index.js
-   http://localhost:4000/api
+
+   - git clone <https://github.com/balajisadanala/expensetracker.git>
+   - cd expense-tracker-api
+   - npm install
+   - node index.js
+   - http://localhost:4000/api
 
 
 **API Documentation**
