@@ -47,7 +47,7 @@ Endpoint: POST /api/transactions
     "id": 1
     }
 
-  - <img src="screenshots/first-trasaction.png" alt="First Transaction" width="800px" />
+  - <img src="screenshots/first-trasaction.png" alt="First Transaction" width="1000px" />
 
 2. Add another Transaction
 Endpoint: POST /api/transactions
@@ -67,7 +67,7 @@ Endpoint: POST /api/transactions
     {
     "id": 2
     }
-- <img src="screenshots/second-trasaction.png" alt="Second Transaction" width="800px" />
+- <img src="screenshots/second-trasaction.png" alt="Second Transaction" width="1000px" />
 3. Add another Transaction
 Endpoint: POST /api/transactions
 
@@ -86,7 +86,7 @@ Endpoint: POST /api/transactions
     {
     "id": 3
     }
-- <img src="screenshots/third-transaction.png" alt="Third Transaction" width="800px" />
+- <img src="screenshots/third-transaction.png" alt="Third Transaction" width="1000px" />
 4. Retrieve All Transactions
 - Endpoint: GET /api/transactions
 
@@ -119,7 +119,7 @@ Endpoint: POST /api/transactions
     "description": "Market"
     }
 ]
-- <img src="screenshots/getall-transactions.png" alt="Get All Transactions" width="800px" />
+- <img src="screenshots/getall-transactions.png" alt="Get All Transactions" width="1000px" />
 5. Retrieve a Transaction by ID
 - Endpoint: GET /api/transactions/:id
 - Example: GET /api/transactions/3
@@ -133,7 +133,7 @@ Endpoint: POST /api/transactions
     "date": "2024-10-15",
     "description": "Market"
     }
- - <img src="screenshots/get-third-transaction.png" alt="Get Third Transaction" width="800px" />
+ - <img src="screenshots/get-third-transaction.png" alt="Get Third Transaction" width="1000px" />
 6. Update a Transaction, change first transaction date
 - Endpoint: PUT /api/transactions/:id
 - Example: PUT /api/transactions/1
@@ -152,7 +152,7 @@ Endpoint: POST /api/transactions
 {
   "message": "Transaction updated successfully"
 }
-- <img src="screenshots/UPDATE-TRANSACTION.png" alt="Update Transaction" width="800px" />
+- <img src="screenshots/UPDATE-TRANSACTION.png" alt="Update Transaction" width="1000px" />
 7. Delete a Transaction
 - Endpoint: DELETE /api/transactions/:id
 - Example: DELETE /api/transactions/3
@@ -162,7 +162,7 @@ Endpoint: POST /api/transactions
 {
   "message": "Transaction deleted successfully"
 }
-- <img src="screenshots/delete-transaction.png" alt="Delete Transaction" width="800px" />
+- <img src="screenshots/delete-transaction.png" alt="Delete Transaction" width="1000px" />
 8. Get Summary
 - Endpoint: GET /api/summary
 - Query Parameters (Optional):
@@ -175,10 +175,10 @@ Endpoint: POST /api/transactions
 {
   "income": 43000,
   "expense": 5000,
-  "balance": 38000
+  "balance": 310000
 }
 
-- <img src="screenshots/SUMMARY.png" alt="Summary" width="800px" />
+- <img src="screenshots/SUMMARY.png" alt="Summary" width="1000px" />
 **Error Handling**
 - Error Response Format:
 
