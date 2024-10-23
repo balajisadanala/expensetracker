@@ -21,7 +21,7 @@ This is a backend application built with **Node.js** and **SQLite** that helps u
 **Clone the repository:**
 
    - git clone <https://github.com/balajisadanala/expensetracker.git>
-   - cd expense-tracker-api
+   - cd expensetracker
    - npm install
    - node index.js
    - http://localhost:4000/api
