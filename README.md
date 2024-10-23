@@ -91,7 +91,7 @@ Endpoint: POST /api/transactions
 - Response:
 
 
-[
+  [
   {
     "id": 1,
     "type": "income",
@@ -134,7 +134,7 @@ Endpoint: POST /api/transactions
 
 6. Update a Transaction, change first transaction date
 - Endpoint: PUT /api/transactions/:id
-- Example: GET /api/transactions/1
+- Example: PUT /api/transactions/1
 - Request Body:
 
 
